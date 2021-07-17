@@ -10,10 +10,16 @@ public class JobList {
     private ArrayList<Job> appliedList;
     private ArrayList<Job> notAppliedList;
 
+    // constructor
     public JobList(String name) {
         this.name = name;
         this.jobList = new ArrayList();
         this.appliedList = new ArrayList();
         this.notAppliedList = new ArrayList();
+    }
+
+    // sort the list
+    private sortList() {
+
     }
 }
